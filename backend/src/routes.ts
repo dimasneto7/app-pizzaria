@@ -8,7 +8,7 @@ import { isAuthenticated } from './middlewares/isAuthenticated'
 
 const router = Router()
 
-// Rotas User
+// Rotas User comment
 router.post('/users', new CreateUserController().handle)
 
 router.post('/session', new AuthUserController().handle)
